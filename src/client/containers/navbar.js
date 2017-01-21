@@ -3,7 +3,7 @@ class NavBar extends Component {
   render(){
     return(
       <nav className="nav-wrapper">
-        <h1>this is navbar</h1>
+        <p>NavBar</p>
       </nav>
     )
   }

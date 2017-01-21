@@ -1,4 +1,4 @@
-const User = require('../models/User.model');
+// const User = require('../models/User.model');
 const jwt = require('jwt-simple');
 const secret = process.env.SECRET || require('../config').secret;
 
@@ -29,7 +29,7 @@ exports.signup = function(req, res, next){
     if (existingUser){
       console.log(existingUser, ': Email already exist')
       res.status(402)
-      res.send({"error": "Email already exist!"})
+      res.send({'error': 'Email already exist!'})
     }
 
     // If a user does not exist, create and save user's record
