@@ -1,11 +1,25 @@
-import React, { Component } from 'react';
-class NavBar extends Component {
-  render(){
-    return(
-      <nav className="nav-wrapper">
-        <p>NavBar</p>
-      </nav>
-    )
+import React from 'react';
+import AppBar from 'material-ui/AppBar';
+import {Tabs, Tab} from 'material-ui/Tabs';
+
+import { Link } from 'react-router';
+
+var styles = {
+  appBar: {
+    flexWrap: 'wrap'
+  },
+  tabs: {
+    width: '100%'
   }
 }
-export default NavBar
+
+const AppBarExampleIcon = () => (
+  <AppBar showMenuIconButton={false} style={styles.app} >
+    <Tabs style={styles.tabs} value={0} initialSelectedIndex={0}>
+      <Tab label='Home' value={0} containerElement={<Link to="/" />} />
+      <Tab label='About' value={1} containerElement={<Link to="/about" />} />
+    </Tabs>
+  </AppBar>
+);
+
+export default AppBarExampleIcon;

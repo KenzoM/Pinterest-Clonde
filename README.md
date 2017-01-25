@@ -1,4 +1,4 @@
-# Pinterest-Clonde
+# Pinterest-Clone
 FCC's Challenge on Building a Pinterest Clone
 
 [Challenge](https://www.freecodecamp.com/challenges/build-a-pinterest-clone)
