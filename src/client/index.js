@@ -9,6 +9,7 @@ import RequireAuth from './components/auth/require_auth';
 
 import App from './components/app';
 import Home from './containers/home';
+import About from './components/About';
 
 //This is for material-ui
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -34,6 +35,7 @@ ReactDOM.render(
     <Router history={browserHistory}>
       <Route path="/" component={App}>
         <IndexRoute component={Home} />
+        <Route path="about" component={About}/>
       </Route>
     </Router>
   </Provider>
