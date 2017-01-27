@@ -1,6 +1,7 @@
 /node_modules
 npm-debug.log
 bundle.js
+images
 /*.env
 
 # IntelliJ
