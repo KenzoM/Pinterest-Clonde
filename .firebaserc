@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "pinterest-clone-react-fcc",
+    "staging": "pinterest-clone-react-fcc"
+  }
+}

@@ -30,6 +30,8 @@ const store = createStore(reducers, composeEnhancers(applyMiddleware(thunk)))
 //   store.dispatch( {type: AUTH_USER} );
 // }
 
+//FireBase URL =  pinterest-clone-react-fcc.firebaseio.com
+
 ReactDOM.render(
   <Provider store={store}>
     <Router history={browserHistory}>

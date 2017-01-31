@@ -13,6 +13,19 @@
   <body>
     <div id="project"></div>
   </body>
+
+  <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyAhHoy7jyBe4uFIJ_YKS8GwRgoslVCF4JM",
+      authDomain: "pinterest-clone-react-fcc.firebaseapp.com",
+      databaseURL: "https://pinterest-clone-react-fcc.firebaseio.com",
+      storageBucket: "pinterest-clone-react-fcc.appspot.com",
+      messagingSenderId: "472155409729"
+    };
+    firebase.initializeApp(config);
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.1/masonry.pkgd.min.js" charset="utf-8"></script>
   <script src="bundle.js"></script>
 </html>
